@@ -1,0 +1,44 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust based on your preference */
+    margin: auto;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    display: none; /* Hide images by default */
+  }
+  
+  .carousel-image.active {
+    display: block; /* Show active image */
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #FFF;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-button:hover {
+    background-color: #ddd;
+  }
+  
+  .carousel-button:first-of-type {
+    left: 10px;
+  }
+  
+  .carousel-button:last-of-type {
+    right: 10px;
+  }
